@@ -13,7 +13,7 @@
 
 ## :speech_balloon: Sobre <a name="about"></a>
 
-> #
+> Letmeask é perfeito para criadores de conteúdos poderem criar salas de Q&A com o seu público, de uma forma muito organizada e democrática.
 
 <br />
 <table>
@@ -34,7 +34,12 @@ $ yarn
 # Configurar as variáveis de ambiente:
 $ .env.example to .env.local
 
-# Configurar as regras do Firebase:
+# Iniciar o projeto:
+$ yarn start
+```
+
+```bash
+# Regras do Firebase:
 {
    "rules": {
     "rooms": {
@@ -55,9 +60,6 @@ $ .env.example to .env.local
     }
   }
 }
-
-# Iniciar o projeto:
-$ yarn start
 ```
 
 ## :triangular_flag_on_post: Desafio <a name="challenge"></a>
@@ -67,6 +69,7 @@ $ yarn start
 ## :heavy_check_mark: Tecnologias <a name="technologies"></a>
 
 - [React](https://pt-br.reactjs.org/)
+- [Firebase](https://firebase.google.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 
 ---
