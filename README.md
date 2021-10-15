@@ -21,7 +21,7 @@
     <td colspan="1">Web App</td>
   </tr>
   <tr>
-    <td><img src="./.github/#" width=1000px /></td></td>
+    <td><img src="./.github/letmeask.gif" width=1000px /></td></td>
   </tr>
 </table>
 
@@ -43,7 +43,7 @@ $ database.rules.json
 
 ## :triangular_flag_on_post: Desafio <a name="challenge"></a>
 
-> #
+> Aprimorar os principais conceitos de React e aprender os passos básicos para utilização do Firebase.
 
 ## :heavy_check_mark: Tecnologias <a name="technologies"></a>
 
