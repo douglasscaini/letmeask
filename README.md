@@ -41,7 +41,7 @@ $ yarn start
 ```bash
 # Regras do Firebase:
 {
-   "rules": {
+  "rules": {
     "rooms": {
       ".read": false,
       ".write": "auth != null",
