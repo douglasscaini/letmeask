@@ -13,7 +13,7 @@
 
 ## :speech_balloon: Sobre <a name="about"></a>
 
-> Letmeask é perfeito para criadores de conteúdos poderem criar salas de Q&A com o seu público, de uma forma muito organizada e democrática.
+> [Letmeask](https://letmeask-d0b30.web.app/) é perfeito para criadores de conteúdos poderem criar salas de Q&A com o seu público, de uma forma muito organizada e democrática.
 
 <br />
 <table>
@@ -36,30 +36,9 @@ $ .env.example to .env.local
 
 # Iniciar o projeto:
 $ yarn start
-```
 
-```bash
 # Regras do Firebase:
-{
-  "rules": {
-    "rooms": {
-      ".read": false,
-      ".write": "auth != null",
-      "$roomId": {
-        ".read": true,
-        ".write": "auth != null && (!data.exists() || data.child('authorId').val() == auth.id)",
-        "questions": {
-          ".read": true,
-          ".write": "auth != null && (!data.exists() || data.parent().child('authorId').val() == auth.id)",
-          "likes": {
-            ".read": true,
-            ".write": "auth != null && (!data.exists() || data.child('authorId').val() == auth.id)",
-          }
-        }
-      }
-    }
-  }
-}
+$ database.rules.json
 ```
 
 ## :triangular_flag_on_post: Desafio <a name="challenge"></a>
